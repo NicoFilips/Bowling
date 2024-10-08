@@ -7,18 +7,18 @@ namespace Bowling.Tests;
 [TestFixture]
 public class BowlingGameTests
 {
-    private BowlingGame _game;
+    private BowlingGame _sut;
 
     [OneTimeSetUp]
     public void Setup()
     {
-        _game = new BowlingGame();
+        _sut = new BowlingGame();
     }
 
     [OneTimeTearDown]
     public void Teardown()
     {
-        _game.Dispose();
+        _sut.Dispose();
     }
 
     [TestCase(4, "1 | [(4)4]")]
@@ -43,7 +43,7 @@ public class BowlingGameTests
     {
         // Arrange
         // Act
-        var result = _game.AddThrow(pins);
+        var result = _sut.AddThrow(pins);
 
         // Assert
         result.Should().Be(expectedResult);
@@ -52,11 +52,14 @@ public class BowlingGameTests
     [Test]
     public void AddThrow_ShouldThrowException_WhenFrameScoreExceedsTen()
     {
-        _game = new BowlingGame();
+        // Arrange
+        BowlingGame sut = new BowlingGame();
 
-        _game.AddThrow(6);
+        // Act
+        sut.AddThrow(6);
 
-        var ex = Assert.Throws<InvalidOperationException>(() => _game.AddThrow(6));
+        // Assert
+        var ex = Assert.Throws<InvalidOperationException>(() => sut.AddThrow(6));
         Assert.That(ex.Message, Is.EqualTo("Die Summe der Würfe in einem Frame darf nicht größer als 10 sein."));
     }
 }
