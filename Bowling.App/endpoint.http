@@ -1,3 +1,0 @@
-﻿### Add Throw Example
-POST http://localhost:5000/addThrow/7
-Content-Type: application/json
