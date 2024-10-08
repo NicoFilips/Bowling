@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.API", "Bowling.API\Bowling.API.csproj", "{F28BD58D-9D7A-44BB-AF44-53F1707923E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Domain", "Bowling.Domain\Bowling.Domain.csproj", "{093ABCFF-BD51-422B-81E3-41865CE68FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Tests", "Bowling.Tests\Bowling.Tests.csproj", "{B55360D6-B552-493E-9A23-E43030F60DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.CLI", "Bowling.CLI\Bowling.CLI.csproj", "{D35E65E1-B08F-4CB9-A162-EAA6B64816A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F28BD58D-9D7A-44BB-AF44-53F1707923E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28BD58D-9D7A-44BB-AF44-53F1707923E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28BD58D-9D7A-44BB-AF44-53F1707923E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28BD58D-9D7A-44BB-AF44-53F1707923E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093ABCFF-BD51-422B-81E3-41865CE68FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093ABCFF-BD51-422B-81E3-41865CE68FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093ABCFF-BD51-422B-81E3-41865CE68FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093ABCFF-BD51-422B-81E3-41865CE68FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55360D6-B552-493E-9A23-E43030F60DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55360D6-B552-493E-9A23-E43030F60DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55360D6-B552-493E-9A23-E43030F60DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55360D6-B552-493E-9A23-E43030F60DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35E65E1-B08F-4CB9-A162-EAA6B64816A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35E65E1-B08F-4CB9-A162-EAA6B64816A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35E65E1-B08F-4CB9-A162-EAA6B64816A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35E65E1-B08F-4CB9-A162-EAA6B64816A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
